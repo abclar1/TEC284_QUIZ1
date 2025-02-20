@@ -1,10 +1,10 @@
-const int redLight = 7, yellowLight = 6, greenLight = 5;
+const int redButton = 7, yellowButton = 6, greenButton = 5;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(redLight, OUTPUT_PULLUP);
-  pinMode(greenLight, OUTPUT_PULLUP);
-  pinMode(yellowLight, OUTPUT_PULLUP);
+  pinMode(redButton, INPUT_PULLUP);
+  pinMode(greenButton, INPUT_PULLUP);
+  pinMode(yellowButton, INPUT_PULLUP);
 }
 
 void loop() {
